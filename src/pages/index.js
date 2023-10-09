@@ -1,10 +1,8 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import HomePage from "@/features/homepage";
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function IndexHome() {
   return (
-    <h1>Hallo Semuanya </h1>
+    <HomePage />
   )
 }
